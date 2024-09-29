@@ -1,0 +1,104 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.main-header {
+    width: 100%;
+    height: 3.5rem;
+    background-color: white; /* White background */
+    padding: 0; /* Remove padding for centering */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+.main-header__nav {
+    display: flex; /* Maintain flex layout */
+}
+.main-header__item-list {
+    list-style: none; /* Remove default list styles */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    display: flex; /* Display items in a row */
+}
+.main-header__item {
+    margin: 0 1rem; /* Space between items */
+}
+.main-header__item a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Set text color */
+}
+.main-header__item a:hover,
+.main-header__item a:active,
+.main-header__item a.active {
+    color: #3e00a1; /* Color on hover/active state */
+}
+.button {
+    background-color: #a10018b2; /* Register button color */
+    color: white; /* Button text color */
+    padding: 0.5rem 1rem; /* Padding for button */
+    border-radius: 3px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+}
+.button:hover,
+.button:active {
+    background-color: #b30020; /* Darker color on hover */
+}
+    
+main {
+    padding: 1rem;
+}
+.contact-form {
+    width: 60%; /* Set a larger width for the table */
+    max-width: 800px; /* Maximum width */
+    margin: 2rem auto; /* Center the form */
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form h1 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 1rem; /* Add some space below the heading */
+}
+.contact-form p {
+    text-align: center; /* Center the paragraph */
+    margin-bottom: 1.5rem; /* Add some space below the paragraph */
+}
+.contact-form table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0; /* Margin around the table */
+}
+.contact-form td {
+    padding: 0.8rem; /* More padding for better spacing */
+    text-align: left; /* Align text to the left */
+}
+.contact-form label {
+    display: block;
+    font-weight: bold; /* Make labels bold */
+}
+.contact-form input {
+    border: 1px solid #d8d7d1;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 2px;
+}
+.get-call-button {
+    width: 100%;
+    display: block; /* Center the button */
+    margin: 1rem auto; /* Center the button */
+    font: inherit;
+    border: 1px solid #a10018b2;
+    color: white;
+    background-color: #a10018b2; /* Button color */
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    text-align: center; /* Center text inside the button */
+}
+.get-call-button:hover,
+.get-call-button:active {
+    background-color: #beb8b8; /* Lighter color on hover */
+}
+
